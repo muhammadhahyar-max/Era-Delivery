@@ -659,7 +659,7 @@
         // ==========================================
         // KONFIGURASI API (GANTI URL DI BAWAH INI)
         // ==========================================
-        const API_URL = "https://script.google.com/macros/s/AKfycbzV20HmdssJXzbEGGistBebkm5cRdXhGwyGnWq1DrpyQI6IuHyXm5Ffj2RPZxUlxkS90A/exec"; 
+        const API_URL = "https://script.google.com/macros/s/AKfycbxv0caeVRG5OxJgKq18dwRD4ySwe85W30XJCYQDvJsotfeqTKIRmUNmY26vnts52QX8JQ/exec"; 
         
         let currentUser = null; 
         let globalSettings = { logoUrl: "", loginBgUrl: "", headerBgUrl: "" };
@@ -670,7 +670,7 @@
 
         // FUNGSI UTAMA UNTUK MENGIRIM DATA KE GOOGLE APPS SCRIPT
         async function fetchAPI(action, payload = {}) {
-            if (API_URL === "https://script.google.com/macros/s/AKfycbzV20HmdssJXzbEGGistBebkm5cRdXhGwyGnWq1DrpyQI6IuHyXm5Ffj2RPZxUlxkS90A/exec") {
+            if (API_URL === "https://script.google.com/macros/s/AKfycbxv0caeVRG5OxJgKq18dwRD4ySwe85W30XJCYQDvJsotfeqTKIRmUNmY26vnts52QX8JQ/exec") {
                 alert("Harap masukkan URL Google Apps Script Anda di dalam variabel API_URL pada kode index.html");
                 throw new Error("API_URL belum dikonfigurasi.");
             }
